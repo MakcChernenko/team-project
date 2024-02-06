@@ -1,6 +1,10 @@
 # Team Project
 Привіт. Це груповий проект для практики HTML + CSS
 
+<details>
+  <summary>Q1: What is the best Language in the World? </summary>
+   A1: JavaScript
+</details>
 [Посилання на макет у Figma](https://www.figma.com/file/67mnimnDXNldtaekTSsLwh/World.net(2.0)?type=design&mode=design&t=TQtCli48Uzq4xXGI-0)
 
 Якщо ви клонували цей макет, то зможете знайти його через меню Figma
