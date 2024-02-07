@@ -4,11 +4,14 @@
 
 [Посилання на макет у Figma](<https://www.figma.com/file/67mnimnDXNldtaekTSsLwh/World.net(2.0)?type=design&mode=design&t=TQtCli48Uzq4xXGI-0>)
 
+Якщо ви клонували цей макет, то зможете знайти його через меню Figma
 <details>
-  <summary>Якщо ви клонували цей макет, то зможете знайти його через меню Figma</summary>
+    <summary>РОЗГОРНУТИ</summary>
 
 ![Зображення](https://i.imgur.com/nHenvLL.png)
+
 </details>
+
 ## Задачі для виконання
 
 - [x] Додати Header
@@ -26,8 +29,10 @@
 - [ ] Додати стилі для текстових елементів
 - [ ] Додати стилі для декоративних елементів
 
+## Для швидкого написання коду за допомогою вбудованного плагіна Emmet розпишу інструкцію.
+
 <details>
- <summary>## Для швидкого написання коду за допомогою вбудованного плагіна Emmet розпишу інструкцію.</summary>
+    <summary>РОЗГОРНУТИ</summary>
 
 ### Обгортання тексту, елементу або одразу всього
 
@@ -93,5 +98,14 @@
 2. Затисність Shift + Atl + стрілка вверх
 
    ![Зображення](https://i.imgur.com/HcDBwqr.png)
+
+</details>
+
+## Шпаргалка для роботи з GIT та GITHUB.
+
+<details>
+    <summary>РОЗГОРНУТИ</summary>
+
+
 
 </details>
