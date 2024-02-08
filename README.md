@@ -1,34 +1,5 @@
 # Team Project
 
-## title {.tabset .tabset-fade}
-content above tabbed region.
-
-### tab Social-Media
-
-tab content Social-Media
-
-### tab Contact
-
-tab content  Contact
-
-### tab Revisions
-
-tab content  Revisions
-
-### tab Articles
-
-tab content  Articles
-
-### tab Skills
-
-tab content  Skills
-
-### tab Insights
-
-tab content  Insights
-
-content below tabbed region
-
 **Привіт. Це груповий проект для практики HTML + CSS**
 
 [Посилання на макет у Figma](<https://www.figma.com/file/67mnimnDXNldtaekTSsLwh/World.net(2.0)?type=design&mode=design&t=TQtCli48Uzq4xXGI-0>)
@@ -45,20 +16,24 @@ content below tabbed region
 
 ## Задачі для виконання
 
-- [x] Додати Header
-- [x] Додати секцію Hero
-- [x] Додати секцію Hero
-- [x] Додати секцію Why us
-- [x] Додати секцію About
-- [x] Додати секцію Feedback
-- [x] Додати секцію Tariffs
-- [x] Додати секцію з формою
-- [x] Додати Футер
-- [x] Додати нову сторінку з описом тарифів
-- [x] Додати модальне вікно
-- [ ] Додати стилі для основних елементів
-- [ ] Додати стилі для текстових елементів
-- [ ] Додати стилі для декоративних елементів
+- [x] Скелет сайту
+    - [x] Головна сторінка
+        - [x] Додати Header
+        - [x] Додати секцію Hero
+        - [x] Додати секцію Why us
+        - [x] Додати секцію About
+        - [x] Додати секцію Feedback
+        - [x] Додати секцію Tariffs
+        - [x] Додати секцію з формою
+        - [x] Додати Футер
+    - [x] Сторінка Тарифи
+        - [x] Додати Header
+        - [x] Додати Футер
+    - [x] Додати модальне вікно
+- [ ] Стилі сайту
+    - [ ] Додати стилі для основних елементів
+    - [ ] Додати стилі для текстових елементів
+    - [ ] Додати стилі для декоративних елементів
 
 > [!TIP]
 > ## Для швидкого написання коду за допомогою вбудованного плагіна Emmet розпишу інструкцію.
