@@ -1,6 +1,8 @@
 # Team Project
 
-Привіт. Це груповий проект для практики HTML + CSS
+**Привіт. Це груповий проект для практики HTML + CSS**
+
+---
 
 [Посилання на макет у Figma](<https://www.figma.com/file/67mnimnDXNldtaekTSsLwh/World.net(2.0)?type=design&mode=design&t=TQtCli48Uzq4xXGI-0>)
 
@@ -138,26 +140,30 @@
 <details>
     <summary>РОЗГОРНУТИ</summary>
 
+Скорочення:
+
 git config --global alias.ac "!git add -A && git commit -m "
 
-Це об’єдная послідодве використання команд
+> Це об’єдная послідодве використання команд
 
 git add .
 git commit -m "text"
 
-Тепер достатньо виконати команду
+> Тепер достатньо виконати команду
 
 git ac "якийсь текст"
 
+Скорочення:
+
 git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
 
-Це об’єдная послідодве використання команд
+> Це об’єдная послідодве використання команд
 
 git add .
 git commit -m "text"
 git push
 
-Тепер достатньо виконати команду
+> Тепер достатньо виконати команду
 
 git cmp "якийсь текст"
 
