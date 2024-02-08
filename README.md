@@ -1,8 +1,35 @@
 # Team Project
 
-**Привіт. Це груповий проект для практики HTML + CSS**
+## title {.tabset .tabset-fade}
+content above tabbed region.
 
----
+### tab Social-Media
+
+tab content Social-Media
+
+### tab Contact
+
+tab content  Contact
+
+### tab Revisions
+
+tab content  Revisions
+
+### tab Articles
+
+tab content  Articles
+
+### tab Skills
+
+tab content  Skills
+
+### tab Insights
+
+tab content  Insights
+
+content below tabbed region
+
+**Привіт. Це груповий проект для практики HTML + CSS**
 
 [Посилання на макет у Figma](<https://www.figma.com/file/67mnimnDXNldtaekTSsLwh/World.net(2.0)?type=design&mode=design&t=TQtCli48Uzq4xXGI-0>)
 
