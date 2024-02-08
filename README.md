@@ -125,6 +125,42 @@
 <details>
     <summary>РОЗГОРНУТИ</summary>
 
+### Основний потік команд для початку роботи
+
+<details>
+    <summary>РОЗГОРНУТИ</summary>
+
+</details>
+
+### Скорочення постійних команд
+
+<details>
+    <summary>РОЗГОРНУТИ</summary>
+
+git config --global alias.ac "!git add -A && git commit -m "
+
+Це об’єдная послідодве використання команд
+
+git add .
+git commit -m "text"
+
+Тепер достатньо виконати команду
+
+git ac "якийсь текст"
+
+git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
+
+Це об’єдная послідодве використання команд
+
+git add .
+git commit -m "text"
+git push
+
+Тепер достатньо виконати команду
+
+git cmp "якийсь текст"
+
+</details>
 
 
 </details>
