@@ -120,7 +120,8 @@
 
 </details>
 
-## Шпаргалка для роботи з GIT та GITHUB.
+> [!TIP]
+> ## Шпаргалка для роботи з GIT та GITHUB.
 
 <details>
     <summary>РОЗГОРНУТИ</summary>
