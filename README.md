@@ -171,5 +171,10 @@ git cmp "якийсь текст"
 
 </details>
 
-
 </details>
+
+### Плагін для браузера, який дозволяє порівнювати сайт із зображенням
+
+**PerfectPixel by WellDoneCode (pixel perfect)**
+
+https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?pli=1
