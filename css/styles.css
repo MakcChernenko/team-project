@@ -1,39 +1,72 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-        font-size: 18px;
-        line-height: 1.5;
-    color: #434b53;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #434b53;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-ul, ol {
-    padding-left: 0;
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
 }
-ul li, ol li {
-    list-style: none;
+ul li,
+ol li {
+  list-style: none;
 }
 button {
-    cursor: pointer; 
+  cursor: pointer;
 }
 img {
-    display: block;
+  display: block;
 }
 .logo {
-    line-height: 1.5;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 .page-header .logo {
-        font-weight: 900;
-        font-size: 25px;
-        color: #275f7a;
+  font-weight: 900;
+  font-size: 25px;
+  color: #275f7a;
 }
 .page-footer .logo {
-        font-weight: 400;
-        font-size: 30px;
-        color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+}
+.menu-main .link {
+  font-weight: 500;
+  color: #2e363e;
+}
+.menu-main .link.active,
+.menu-main .link:hover,
+.menu-main .link:focus {
+  color: #275f7a;
+}
+.contacts .link {
+  font-weight: 700;
+  line-height: 1.52;
+  text-align: right;
+  color: #275f7a;
+  font-style: normal;
+}
+.page-header {
+  border-bottom: 3px solid #275f7a;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
