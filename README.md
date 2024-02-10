@@ -132,6 +132,22 @@
 
 ### Основний потік команд для початку роботи
 
+Git init
+
+Git pull
+Git fetch
+Git merge
+
+Git status
+
+Git add --all
+Git add -A
+Git add .
+
+Git commit -m "text"
+
+Git push
+
 <details>
     <summary>РОЗГОРНУТИ</summary>
 
@@ -178,3 +194,10 @@ git cmp "якийсь текст"
 **PerfectPixel by WellDoneCode (pixel perfect)**
 
 https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?pli=1
+
+
+### Extension для VSCode, який дозволяє форматувати CSS більш компактно
+
+CSS Compressor
+
+https://marketplace.visualstudio.com/items?itemName=bestvow.css-compressor
