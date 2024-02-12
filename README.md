@@ -194,9 +194,10 @@ git cmp "якийсь текст"
 
 https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?pli=1
 
-
 ### Extension для VSCode, який дозволяє форматувати CSS більш компактно
 
-CSS Compressor
+[CSS Compressor](https://marketplace.visualstudio.com/items?itemName=bestvow.css-compressor)
 
-https://marketplace.visualstudio.com/items?itemName=bestvow.css-compressor
+### Extension для VSCode, який дозволяє швидко скопіювати селектори з HTML до CSS
+
+[eCSStractor for VSCode](https://marketplace.visualstudio.com/items?itemName=diz.ecsstractor-port)
