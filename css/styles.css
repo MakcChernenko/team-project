@@ -1,6 +1,8 @@
-body {
+* {
   padding: 0;
   margin: 0;
+}
+body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -9,11 +11,6 @@ body {
 }
 a {
   text-decoration: none;
-}
-ul,
-ol {
-  padding-left: 0;
-  margin: 0;
 }
 ul li,
 ol li {
@@ -82,8 +79,7 @@ img {
 .hero .left {
   padding-top: 136px;
 }
-.hero .right {
-}
+
 .hero .title {
   font-weight: 700;
   font-size: 48px;
@@ -108,16 +104,14 @@ img {
 .hero .btn:focus {
   background: #1b4357;
 }
-.hero .hero-img {
-}
+
 /* ===============/hero================= */
 /* ================beneffits============= */
 .beneffits {
   background: #275f7a;
   padding: 100px 0;
 }
-.container {
-}
+
 .beneffits .title {
   font-weight: 700;
   color: #fff;
@@ -131,8 +125,7 @@ img {
   font-size: 22px;
   line-height: 1.43;
 }
-.list {
-}
+
 .beneffits .item {
   width: calc(100% / 3);
   margin-right: 53px;
@@ -147,6 +140,77 @@ img {
   color: #fff;
 }
 /* ==================/beneffits============= */
+
+/* ==================section-feedback============= */
+.section-feedback {
+  background-color: #275f7a;
+  overflow: hidden;
+  padding: 100px 0;
+}
+.section-feedback .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.255;
+  letter-spacing: 0.03em;
+
+  color: #fff;
+  width: 440px;
+  margin-bottom: calc(50px + 41px);
+}
+.section-feedback .top-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  text-align: justify;
+  color: #fff;
+}
+
+.section-feedback .list {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.section-feedback .list .item {
+  background-color: #fff;
+  width: calc((100% - 35px * 2) / 3);
+  border-radius: 5px;
+  padding: 0 18px 18px;
+}
+.section-feedback .list .item img {
+  margin: -41px auto 12px auto;
+}
+.section-feedback .list .item h3 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+.section-feedback .list .item p {
+  font-size: 11px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #696969;
+}
+
+.section-feedback .top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 19px;
+}
+.section-feedback .line {
+  width: 143px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+/* ==================/section-feedback============= */
 /* ================footer================ */
 .footer {
   background-color: #275f7a;
@@ -156,12 +220,6 @@ img {
   color: #fff;
 }
 
-.social-menu {
-}
-.menu-item {
-}
-.contacts {
-}
 .footer .contacts .link {
   font-size: 30px;
   line-height: 1.1;
