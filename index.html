@@ -5,51 +5,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World.net</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@900&display=swap"
         rel="stylesheet" />
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <header class="page-header">
-        <div class="container flex">
-            <a href="./index.html" class="logo">World.net</a>
-            <nav class="nav">
-                <ul class="menu-main">
-                    <l1><a href="./index.html" class="link">Home</a></l1>
-                    <l1><a href="./index.html#about" class="link">About</a></l1>
-                    <l1><a href="./index.html#customer" class="link">Reviews</a></l1>
-                    <l1><a href="./index.html#tariffs" class="link">Tariffs</a></l1>
-                    <l1><a href="./index.html#contacts" class="link">Contacts</a></l1>
+        <div class="container header-container">
+            <a href="./index.html" class="header-logo logo">World.net</a>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <l1 class="header-nav-item"><a href="./index.html" class="header-nav-link">Home</a></l1>
+                    <l1 class="header-nav-item"><a href="./index.html#about" class="header-nav-link">About</a></l1>
+                    <l1 class="header-nav-item"><a href="./index.html#customer" class="header-nav-link">Reviews</a></l1>
+                    <l1 class="header-nav-item"><a href="./index.html#tariffs" class="header-nav-link">Tariffs</a></l1>
+                    <l1 class="header-nav-item"><a href="./index.html#contacts" class="header-nav-link">Contacts</a>
+                    </l1>
                 </ul>
             </nav>
-            <address class="contacts">
-                <a href="tel:88006549732" class="link">8 (800) 654-97-32</a>
+            <address class="header-contacts">
+                <a href="tel:88006549732" class="header-contacts-link">8 (800) 654-97-32</a>
             </address>
         </div>
     </header>
     <main>
         <section class="hero">
-            <div class="container flex">
-                <div class="left">
-                    <h1 class="title">Reliable Home Internet and TV Provider</h1>
-                    <p class="text"> We work only in small towns. Thanks to this, we maintain quality and we will not spray </p>
-                    <button type="button" class="btn">Submit your application</button>
+            <div class="container hero-container">
+                <div class="hero-box">
+                    <h1 class="hero-title">Reliable Home Internet and TV Provider</h1>
+                    <p class="hero-text"> We work only in small towns. Thanks to this, we maintain quality and we will
+                        not
+                        spray </p>
+                    <button type="button" class="hero-btn">Submit your application</button>
                 </div>
-                <div class="right">
-                    <img
-                        src="./img/hero-img.svg"
-                        alt="Home Internet and TV"
-                        width="572"
-                        height="560"
-                        class="hero-img" />
-                </div>
+                <img src="./img/hero-img.svg" alt="Home Internet and TV" width="572" height="560" class="hero-img" />
             </div>
         </section>
         <!-- ================beneffits=============== -->
@@ -58,47 +53,33 @@
                 <h2 class="title">Why choose our company</h2>
                 <ul class="list flex">
                     <li class="item">
-                        <img
-                            src="./img/speed.svg"
-                            alt="speed"
-                            width="70"
-                            height="70"
-                            class="img" />
+                        <img src="./img/speed.svg" alt="speed" width="70" height="70" class="img" />
                         <h3 class="title">Speed</h3>
-                        <p class="text"> Thanks to GPON and a backup line, we guarantee the speed right under the contract </p>
+                        <p class="text"> Thanks to GPON and a backup line, we guarantee the speed right under the
+                            contract </p>
                     </li>
                     <li class="item">
-                        <img
-                            src="./img/instal.svg"
-                            alt="Installation"
-                            width="70"
-                            height="70"
-                            class="img" />
+                        <img src="./img/instal.svg" alt="Installation" width="70" height="70" class="img" />
                         <h3 class="title">Installation</h3>
-                        <p class="text"> We carefully mount the cable, without damaging the interior of your apartment or house </p>
+                        <p class="text"> We carefully mount the cable, without damaging the interior of your apartment
+                            or house </p>
                     </li>
                     <li class="item">
-                        <img
-                            src="./img/sup.svg"
-                            alt="Support "
-                            width="70"
-                            height="70"
-                            class="img" />
+                        <img src="./img/sup.svg" alt="Support " width="70" height="70" class="img" />
                         <h3 class="title">Support</h3>
-                        <p class="text"> Round-the-clock help in the application or via the hotline, even on holidays you can get an answer to your question </p>
+                        <p class="text"> Round-the-clock help in the application or via the hotline, even on holidays
+                            you can get an answer to your question </p>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- ===============================/beneffits==================== -->
         <section>
-            <img
-                src="./img/about-img.svg"
-                width="544"
-                height="525"
-                alt="About image" />
+            <img src="./img/about-img.svg" width="544" height="525" alt="About image" />
             <h2 id="about">We will connect today or next day</h2>
-            <p> Our coverage area is much smaller than that of large providers. This allows us to work quickly: 64% of subscribers receive Internet and TV immediately on the day of application. Even if you need to connect a private house, not an apartment. </p>
+            <p> Our coverage area is much smaller than that of large providers. This allows us to work quickly: 64% of
+                subscribers receive Internet and TV immediately on the day of application. Even if you need to connect a
+                private house, not an apartment. </p>
             <ul>
                 <li>
                     <h3>14 536</h3>
@@ -119,31 +100,22 @@
                 <h2 id="customer" class="title">What Our Customers Say About Us</h2>
                 <ul class="list">
                     <li class="item">
-                        <img
-                            src="./img/customer.svg"
-                            alt="customer"
-                            width="98"
-                            height="98" />
+                        <img src="./img/customer.svg" alt="customer" width="98" height="98" />
                         <h3>Name Here</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla donec </p>
+                        <p> Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent
+                            vitae. Facilisis vitae fringilla donec </p>
                     </li>
                     <li class="item">
-                        <img
-                            src="./img/customer.svg"
-                            alt="customer"
-                            width="98"
-                            height="98" />
+                        <img src="./img/customer.svg" alt="customer" width="98" height="98" />
                         <h3>Name Here</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla donec </p>
+                        <p> Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent
+                            vitae. Facilisis vitae fringilla donec </p>
                     </li>
                     <li class="item">
-                        <img
-                            src="./img/customer.svg"
-                            alt="customer"
-                            width="98"
-                            height="98" />
+                        <img src="./img/customer.svg" alt="customer" width="98" height="98" />
                         <h3>Name Here</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla donec </p>
+                        <p> Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent
+                            vitae. Facilisis vitae fringilla donec </p>
                     </li>
                 </ul>
             </div>
@@ -152,11 +124,7 @@
             <h2>Tariffs</h2>
             <ul>
                 <li>
-                    <img
-                        src="./img/standart.svg"
-                        alt="Standart"
-                        width="248"
-                        height="228" />
+                    <img src="./img/standart.svg" alt="Standart" width="248" height="228" />
                     <h3>
                         <a href="./tariffs.html#standart" target="_blank">Standart</a>
                     </h3>
@@ -199,24 +167,15 @@
             <a href="./index.html" class="logo">World.Net</a>
             <ul class="social-menu flex">
                 <li class="menu-item">
-                    <a href="" target="_blank"><img
-                            src="./img/instagram.svg"
-                            alt="instagram"
-                            width="40"
+                    <a href="" target="_blank"><img src="./img/instagram.svg" alt="instagram" width="40"
                             height="40" /></a>
                 </li>
                 <li class="menu-item">
-                    <a href="" target="_blank"><img
-                            src="./img/facebook.svg"
-                            alt="facebook"
-                            width="40"
+                    <a href="" target="_blank"><img src="./img/facebook.svg" alt="facebook" width="40"
                             height="40" /></a>
                 </li>
                 <li class="menu-item">
-                    <a href="" target="_blank"><img
-                            src="./img/whatsapp.svg"
-                            alt="whatsapp"
-                            width="40"
+                    <a href="" target="_blank"><img src="./img/whatsapp.svg" alt="whatsapp" width="40"
                             height="40" /></a>
                 </li>
             </ul>
@@ -230,16 +189,12 @@
         <div>
             <p>Contact Us</p>
             <p>Contact Us & We Can Work Together</p>
-            <p> Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu enim id gravida pulvinar. Tristique consectetur mi curabitur congue enim dignissim </p>
+            <p> Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu enim id gravida pulvinar. Tristique
+                consectetur mi curabitur congue enim dignissim </p>
             <form action="">
                 <input type="text" name="" id="" value="" placeholder="Your Name" />
                 <input type="email" name="" id="" value="" placeholder="Your Email" />
-                <input
-                    type="text"
-                    name=""
-                    id=""
-                    value=""
-                    placeholder="Your Message" />
+                <input type="text" name="" id="" value="" placeholder="Your Message" />
                 <button>Submit Message</button>
             </form>
         </div>
