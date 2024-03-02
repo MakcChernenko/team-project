@@ -49,12 +49,12 @@
 ## Шпаргалки
 
 > [!TIP]
-> ## Для швидкого написання коду за допомогою вбудованного плагіна Emmet розпишу інструкцію.
+> ### Інтструкція для швидкого написання коду з Emmet.
 
 <details>
     <summary>РОЗГОРНУТИ</summary>
 
-### Обгортання тексту, елементу або одразу всього
+#### Обгортання тексту, елементу або одразу всього
 
 <details>
     <summary>РОЗГОРНУТИ</summary>
@@ -104,7 +104,7 @@
 
 </details>
 
-### Для швидкого переміщення елементу або виділення між рядками
+#### Для швидкого переміщення елементу або виділення між рядками
 
 <details>
     <summary>РОЗГОРНУТИ</summary>
@@ -120,7 +120,7 @@
 
 </details>
 
-### Для швидкого копіювання (дублювання) елементу або виділення
+#### Для швидкого копіювання (дублювання) елементу або виділення
 
 <details>
     <summary>РОЗГОРНУТИ</summary>
@@ -138,12 +138,12 @@
 </details>
 
 > [!TIP]
-> ## Шпаргалка для роботи з GIT та GITHUB.
+> ### Шпаргалка для роботи з GIT та GITHUB.
 
 <details>
     <summary>РОЗГОРНУТИ</summary>
 
-### Основний потік команд для початку роботи
+#### Основний потік команд для початку роботи
 
 Git init
 
@@ -166,27 +166,26 @@ Git push
 
 </details>
 
-### Скорочення постійних команд
+#### Скорочення постійних команд
 
 <details>
     <summary>РОЗГОРНУТИ</summary>
 
-Скорочення:
+**Скорочення:**
 
-git config --global alias.ac "!git add -A && git commit -m "
+***git config --global alias.ac "!git add -A && git commit -m "***
 
 > Це об’єдная послідодве використання команд
 
-git add . git commit -m "text"
+***git add . git commit -m "text"***
 
 > Тепер достатньо виконати команду
 
-git ac "якийсь текст"
+***git ac "якийсь текст"***
 
-Скорочення:
+**Скорочення:**
 
-git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git
-push; }; f'
+***git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'***
 
 > Це об’єдная послідодве використання команд
 
@@ -200,16 +199,16 @@ git cmp "якийсь текст"
 
 </details>
 
-### Плагін для браузера, який дозволяє порівнювати сайт із зображенням
+#### Плагін для браузера, який дозволяє порівнювати сайт із зображенням
 
 **PerfectPixel by WellDoneCode (pixel perfect)**
 
 https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?pli=1
 
-### Extension для VSCode, який дозволяє форматувати CSS більш компактно
+#### Extension для VSCode, який дозволяє форматувати CSS більш компактно
 
 [CSS Compressor](https://marketplace.visualstudio.com/items?itemName=bestvow.css-compressor)
 
-### Extension для VSCode, який дозволяє швидко скопіювати селектори з HTML до CSS
+#### Extension для VSCode, який дозволяє швидко скопіювати селектори з HTML до CSS
 
 [eCSStractor for VSCode](https://marketplace.visualstudio.com/items?itemName=diz.ecsstractor-port)
