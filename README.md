@@ -196,16 +196,36 @@ git cmp "якийсь текст"
 
 </details>
 
+## Плагіни для браузера
+
 #### Плагін для браузера, який дозволяє порівнювати сайт із зображенням
 
 **PerfectPixel by WellDoneCode (pixel perfect)**
 
 https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?pli=1
 
-#### Extension для VSCode, який дозволяє форматувати CSS більш компактно
+## Плагіни для VSCode
+
+### Extension для VSCode, який дозволяє форматувати CSS більш компактно
 
 [CSS Compressor](https://marketplace.visualstudio.com/items?itemName=bestvow.css-compressor)
 
-#### Extension для VSCode, який дозволяє швидко скопіювати селектори з HTML до CSS
+### Extension для VSCode, який дозволяє швидко скопіювати селектори з HTML до CSS
 
 [eCSStractor for VSCode](https://marketplace.visualstudio.com/items?itemName=diz.ecsstractor-port)
+
+### Extension для VSCode, який дозволяє швидко скопіювати селектори з HTML до CSS
+
+[CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation)
+
+### Extension для VSCode, який дозволяє швидко впорядкувати атрибутів в HTML
+
+[Sorting HTML and Jade attributes](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-attrs-sorter)
+
+### Extension для VSCode, який дозволяє швидко впорядкувати властивості в CSS
+
+[PostCSS Sorting](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-postcss-sorting)
+
+### Extension для VSCode, який дозволяє додавати Гарячі клавіши для додаткових функцій
+
+[multi-command](https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command)
