@@ -8,11 +8,14 @@
 > Figma
 
 <details>
-    <summary>РОЗГОРНУТИ</summary>
+    <summary>Макет проекту у FIGMA</summary>
 
 ![Зображення](https://i.imgur.com/nHenvLL.png)
 
 </details>
+
+<details>
+    <summary>TODO List</summary>
 
 ## Задачі для виконання
 
@@ -34,6 +37,9 @@
   - [x] Додати стилі для текстових елементів
   - [ ] Додати стилі для основних елементів
   - [ ] Додати стилі для декоративних елементів
+
+
+</details>
 
 > [!TIP]
 >

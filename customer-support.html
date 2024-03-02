@@ -39,6 +39,22 @@
     .list-item:nth-child(3)::before {
         background-color: #4D8DFF;
     }
+
+    @media screen and (min-width: 1158px) {
+        .hero-wrap {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+        }
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-wrap {
+                background-image: linear-gradient(rgba(35, 35, 36, 0.7),
+                        rgba(46, 47, 66, 0.7)), url(../images/hero-bg-2x.jpg);
+            }
+        }
+    }
 </style>
 
 <body>
@@ -47,6 +63,21 @@
         <li class="list-item">We will only switch you to energy companies that we trust and will treat you right</li>
         <li class="list-item">We track the markets daily and know where the savings are.</li>
     </ul>
+    <picture>
+        <source srcset="
+            ./images/portfolio-img-desk.jpg    1x,
+            ./images/portfolio-img-desk@2x.jpg 2x
+          " media="(min-width: 1158px)">
+        <source srcset="
+            ./images/portfolio-img-tab.jpg    1x,
+            ./images/portfolio-img-tab-@2x.jpg 2x
+          " media="(min-width: 768px)">
+        <source srcset="
+            ./images/portfolio-img-mob.jpg    1x,
+            ./images/portfolio-img-mob-@2x.jpg 2x
+          " media="(max-width: 767px)">
+        <img src="./images/portfolio-img-mob.jpg" alt="portfolio picture">
+    </picture>
 </body>
 
 </html>
