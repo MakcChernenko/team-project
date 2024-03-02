@@ -143,23 +143,23 @@
 <details>
     <summary>РОЗГОРНУТИ</summary>
 
-#### Основний потік команд для початку роботи
+#### Основний потік команд для початку роботи:
 
-Git init
+**Git init**
 
-Git pull
 Git fetch
 Git merge
+**Git pull**
 
-Git status
+***Git status***
 
 Git add --all
 Git add -A
-Git add .
+**Git add .**
 
-Git commit -m "text"
+**Git commit -m "text"**
 
-Git push
+**Git push**
 
 <details>
     <summary>РОЗГОРНУТИ</summary>
@@ -169,17 +169,14 @@ Git push
 #### Скорочення постійних команд
 
 <details>
-    <summary>РОЗГОРНУТИ</summary>
+    <summary>Скорочення</summary>
 
-**Скорочення:**
-
+> Це об’єднає послідовне використання команд:
 ***git config --global alias.ac "!git add -A && git commit -m "***
 
-> Це об’єдная послідодве використання команд
-
+> Тепер достатньо виконати команду
 ***git add . git commit -m "text"***
 
-> Тепер достатньо виконати команду
 
 ***git ac "якийсь текст"***
 
