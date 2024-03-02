@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .list-item {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .list-item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .list-item::before {
+        content: "";
+        width: 35px;
+        height: 35px;
+        border-radius: 14px;
+        background-image: url(./img/tick.svg);
+        background-repeat: no-repeat;
+        background-size: 16px 12px;
+        background-position: center;
+    }
+
+    .list-item:nth-child(1)::before {
+        background-color: #FF9900;
+    }
+
+    .list-item:nth-child(2)::before {
+        background-color: #F03E3D;
+    }
+
+    .list-item:nth-child(3)::before {
+        background-color: #4D8DFF;
+    }
+</style>
+
+<body>
+    <ul class="list">
+        <li class="list-item">Never worry about overpaying for your energy again. </li>
+        <li class="list-item">We will only switch you to energy companies that we trust and will treat you right</li>
+        <li class="list-item">We track the markets daily and know where the savings are.</li>
+    </ul>
+</body>
+
+</html>
