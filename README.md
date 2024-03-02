@@ -2,13 +2,13 @@
 
 **Привіт. Це груповий проект для практики HTML + CSS**
 
+<details>
+    <summary>Макет проекту у FIGMA</summary>
+
 [Посилання на макет у Figma](<https://www.figma.com/file/67mnimnDXNldtaekTSsLwh/World.net(2.0)?type=design&mode=design&t=TQtCli48Uzq4xXGI-0>)
 
 > [!IMPORTANT] Якщо ви клонували цей макет, то зможете знайти його через меню
 > Figma
-
-<details>
-    <summary>Макет проекту у FIGMA</summary>
 
 ![Зображення](https://i.imgur.com/nHenvLL.png)
 
