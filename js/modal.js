@@ -5,7 +5,7 @@
     modal: document.querySelector('[data-modal]'),
   };
 
-  refs.openModalBtn.forEach((element) => {
+  refs.openModalBtn.forEach(element => {
     element.addEventListener('click', toggleModal);
   });
   refs.closeModalBtn.addEventListener('click', toggleModal);
@@ -14,8 +14,11 @@
 
   refs.modal.addEventListener('click', removeModal);
   function removeModal(e) {
+    console.log(e.target, e.currentTarget);
+
     if (e.target === e.currentTarget) {
       refs.modal.classList.add('is-hidden');
+      document.body.classList.toggle('no-scroll');
     }
   }
 
